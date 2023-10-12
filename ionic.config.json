@@ -1,0 +1,7 @@
+{
+  "name": "Knowledgebase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

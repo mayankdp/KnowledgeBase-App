@@ -1,0 +1,347 @@
+body {
+  margin-top: constant(safe-area-inset-top);
+  margin-top: env(safe-area-inset-top);
+}
+
+ion-tab-button.tab-selected {
+  background-color: #2566c9;
+}
+
+ion-header {
+  --ion-background-color: #17478d;
+}
+
+ion-footer {
+  --ion-background-color: #17478d;
+}
+
+ion-img {
+  display: flex;
+  margin: 4%;
+}
+
+ion-back-button {
+  width: 22;
+}
+
+ion-tab-bar {
+  border-width: 0;
+}
+
+.ionContent {
+  --ion-background-color: #17478d;
+  flex: 1;
+}
+
+.titleButton {
+  margin-top: 5%;
+}
+
+.KLable {
+  align-self: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff6699;
+  /* height: 100%;
+  width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botText {
+  align-self: center;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  font-weight: bold;
+  color: #f8ca26;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginInput {
+  border: solid 1px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: white;
+  --padding-start: 12px;
+}
+
+.homeLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 30%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+  width: 50%;
+  height: auto;
+  margin-top: 25%;
+}
+
+.avatar {
+  /* width: 100% !important;
+  height: 100% !important;
+  max-width: 300px !important;
+  max-height: 300px !important; */
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30;
+}
+
+.edit {
+  width: 25px !important;
+  height: 25px !important;
+  padding: 4px;
+  background-color: lightgray;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  margin-left: auto;
+  margin-right: auto;
+  color: #ff6699;
+  text-decoration: underline;
+}
+
+.confirm {
+  position: fixed;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 25%;
+  right: 25%;
+}
+
+.submit {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 25%;
+  right: 25%;
+}
+
+.topmargin {
+  margin-top: 5px;
+}
+
+.headerText {
+  /* margin-top: 20px; */
+  font-weight: bold;
+  /* margin-left: auto;
+  margin-right: auto; */
+  color: #ff6699;
+}
+.headerText1 {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ff6699;
+}
+.settingHeaderText {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ff6699;
+}
+
+.categoryText {
+  color: #f8ca26;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chevColor {
+  color: #f8ca26;
+}
+
+.createText {
+  color: white;
+  margin-left: 5px;
+}
+
+.required {
+  font-style: italic;
+  font-size: x-small;
+}
+
+.tabbar {
+  max-height: 56px;
+  height: 56px;
+  --ion-background-color: #1f5cb6;
+}
+
+.tabs {
+  background-color: #17478d;
+}
+
+.questionCard {
+  padding: 10px;
+  background-color: #f8ca26;
+}
+
+.optionButton {
+  color: #ff6699;
+  font-weight: bold;
+}
+
+.question {
+  color: black;
+  font-weight: bold;
+}
+
+.previewText {
+  color: white;
+  font-weight: bold;
+}
+
+.tabText {
+  color: #f8ca26;
+  font-weight: bold;
+}
+
+.homeButtons {
+  margin: auto;
+  margin-bottom: 25px;
+  width: 90%;
+}
+
+.rating {
+  margin: auto;
+  width: fit-content;
+  font-size: xx-large;
+}
+
+.submitButton {
+  margin: auto;
+  width: fit-content;
+}
+.packInput {
+  border: solid 1px;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  color: white;
+}
+.packButton {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  border: dashed 2px;
+  border-radius: 10px;
+  height: 50px;
+}
+.packSwitch {
+  margin: auto;
+  width: fit-content;
+}
+
+.packText {
+  font-weight: bold;
+  color: #ff6699;
+  margin: auto;
+}
+
+.packFriends {
+  margin: 10px;
+}
+
+.homeText {
+  margin: auto;
+  font-weight: bold;
+  color: #ff6699;
+  text-align: center;
+  font-size: 160%;
+  height: auto;
+}
+.homeText1 {
+  margin: auto;
+  color: #ff6699;
+  text-align: center;
+  font-size: 100%;
+  height: auto;
+}
+
+.packButtons {
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.imageOption {
+  padding: 5px;
+  background-color: #17478d;
+  border: solid 2px #17478d;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+/* Quick add friends */
+.headtext {
+  align-self: center;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  color: #ff6699;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.emailInput {
+  border: solid 1px;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: 15px;
+  color: white;
+}
+.searchButton {
+  align-self: center;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.mrgn {
+  margin-top: 2rem;
+}
+
+.warnText {
+  text-align: center;
+  color: white;
+  font-size: .9rem;
+  margin-top: 1rem;
+}
+
+.dangerText {
+  padding: 1rem;
+  text-align: center;
+  color: #ff6699;
+  font-size: 1rem;
+  margin-top: 1rem;
+}

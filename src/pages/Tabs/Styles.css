@@ -1,0 +1,78 @@
+/*
+Leaderboard
+*/
+.leader_header {
+  background-color: brown;
+}
+.headerLead {
+  background-color: #0a57ca;
+  color: #ff6699;
+}
+.header_list {
+  margin-left: 55px;
+  font-weight: bold;
+  color: #f8ca26;
+}
+.header_score {
+  font-weight: bold;
+  color: #f8ca26;
+}
+
+/*
+Profile
+*/
+.username {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f8ca26;
+}
+.fql_label {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ff6699;
+}
+.fql_name {
+  color: #ffffff;
+}
+.itemss {
+  --ion-background-color: #1f5cb6;
+}
+.topmargin {
+  margin-top: -0.5%;
+}
+/*
+UserInfo Page
+*/
+.infoOfUser {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infoOf {
+  background-color: rgb(210, 231, 18);
+  width: 100%;
+}
+.cardBackcolor {
+  background-color: #1f5cb6;
+}
+.userLabel {
+  color: #f8ca26;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+.center {
+  color: #f8ca26;
+  font-size: 18px;
+  --ion-background-color: #1b6be4;
+}
+.userText {
+  color: #ffffff;
+  font-size: 17px;
+}
+.list {
+  padding: 10px;
+}

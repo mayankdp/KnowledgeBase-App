@@ -1,0 +1,61 @@
+/* Chat */
+.chatRow {
+  margin: 5px;
+}
+
+
+.chatItem1 {
+  background-color: rgb(77, 147, 238);
+  border-radius: 15px;
+  left: 15%;
+  padding-left: auto;
+  padding-right: 15%;
+}
+.spanStyle1 {
+  color: rgb(19, 26, 23);
+  margin: 5px;
+  font-size: small;
+}
+.divStyle1 {
+  color: rgb(19, 26, 23);
+  font-size: xx-small;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.chatItem {
+  background-color: rgb(12, 109, 236);
+  border-radius: 15px;
+  right: 15%;
+  padding-left: 15%;
+  padding-right: auto;
+}
+.spanStyle {
+  color: rgb(19, 26, 23);
+  margin: 5px;
+  font-size: small;
+}
+.divStyle {
+  color: rgb(19, 26, 23);
+  font-size: xx-small;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.footer {
+  margin-top: -10px;
+  color: transparent;
+}
+.textMessageInput {
+  background-color: rgb(19, 26, 23);
+  border-radius: 45px;
+  padding-inline-start: 20px;
+  padding-inline-end: 15px;
+  color: aliceblue;
+}
+.sendButton {
+  height: 28px;
+}
+.footerItem {
+  --ion-background-color: #1b6be4;
+}
